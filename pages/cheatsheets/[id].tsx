@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { GetStaticPaths, GetStaticProps } from "next";
 import Layout from "../../components/layout";
 import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
@@ -21,7 +22,7 @@ export default function Cheatsheet({ id, date, name: title, contentHtml }) {
   );
 }
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
   const paths = cheatsheets.getIds().map((id) => ({ params: { id } }));
 
   // Return a list of possible value for id
@@ -29,9 +30,9 @@ export async function getStaticPaths() {
     paths,
     fallback: false,
   };
-}
+};
 
-export async function getStaticProps({ params }) {
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   // Fetch necessary data for the blog post using params.id
   const cheatsheet = await cheatsheets.get(params.id);
 

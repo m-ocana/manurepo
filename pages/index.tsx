@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import { GetStaticProps } from "next";
 import Layout, { title } from "../components/layout";
 import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
@@ -34,9 +35,9 @@ export default function Home({ allCheatsheets }) {
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async (context) => {
   const allCheatsheets = cheatsheets.getAll();
   return {
     props: { allCheatsheets },
   };
-}
+};
