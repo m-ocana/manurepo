@@ -49,11 +49,11 @@ Allow changes that do not modify the first non-zero digit in the version, either
 
 ## Cheatsheet
 
-```
-$ yarn init                         # starts a new project
-$ yarn add [package]                # add dependency
-$ yarn add [package] --dev          # add to `devDependencies`
-$ yarn upgrade [package]@[version]  # upgrades a dependency
-$ yarn remove [package]             # removing a dependency
-$ yarn install                      # installing all dependencies
+```bash
+yarn init                         # starts a new project
+yarn add [package]                # add dependency
+yarn add [package] --dev          # add to `devDependencies`
+yarn upgrade [package]@[version]  # upgrades a dependency
+yarn remove [package]             # removing a dependency
+yarn install                      # installing all dependencies
 ```
