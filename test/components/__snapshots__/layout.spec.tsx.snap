@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout scaffolds any other page 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <a>
+        <img
+          alt="The Manurepo"
+          class="headerImage"
+          src="/images/repo.svg"
+        />
+      </a>
+      <h2
+        class="headingLg"
+      >
+        <a
+          class="colorInherit"
+          href="/"
+        >
+          The Manurepo
+        </a>
+      </h2>
+    </header>
+    <main />
+    <div
+      class="backToHome"
+    >
+      <a
+        href="/"
+      >
+        ← Back to home
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Layout scaffolds the home page 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <img
+        alt="The Manurepo"
+        class="headerHomeImage"
+        src="/images/repo.svg"
+      />
+      <h1
+        class="heading2Xl"
+      >
+        The Manurepo
+      </h1>
+    </header>
+    <main />
+  </div>
+</DocumentFragment>
+`;

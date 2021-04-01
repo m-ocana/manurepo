@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Prism from "prismjs";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 
@@ -14,10 +13,6 @@ export default function Layout({
   children: React.ReactNode;
   home?: boolean;
 }) {
-  useEffect(() => {
-    Prism.highlightAll();
-  }, []);
-
   return (
     <div className={styles.container}>
       <Head>

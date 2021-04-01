@@ -9,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@testing-library/react": "^11.2.6",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "identity-obj-proxy": "^3.0.0",

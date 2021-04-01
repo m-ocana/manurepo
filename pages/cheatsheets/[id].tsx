@@ -1,11 +1,17 @@
+import { useEffect } from "react";
 import Head from "next/head";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Layout from "../../components/layout";
 import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
+import Prism from "prismjs";
 import { cheatsheets } from "../../lib/collections";
 
-export default function Cheatsheet({ id, date, name: title, contentHtml }) {
+export default function Cheatsheet({ name: title, contentHtml }) {
+  useEffect(() => {
+    Prism.highlightAll();
+  }, []);
+
   return (
     <Layout>
       <Head>
@@ -41,4 +47,4 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       ...cheatsheet,
     },
   };
-}
+};
