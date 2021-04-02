@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cheatsheet page renders a Cheatsheet page 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <a>
+        <img
+          alt="The Manurepo"
+          class="headerImage"
+          src="/images/repo.svg"
+        />
+      </a>
+      <h2
+        class="headingLg"
+      >
+        <a
+          class="colorInherit"
+          href="/"
+        >
+          The Manurepo
+        </a>
+      </h2>
+    </header>
+    <main>
+      <article>
+        <div>
+          [object Object]
+        </div>
+      </article>
+    </main>
+    <div
+      class="backToHome"
+    >
+      <a
+        href="/"
+      >
+        ← Back to home
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
