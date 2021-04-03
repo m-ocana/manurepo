@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { GetStaticProps } from "next";
-import Layout, { title } from "../components/layout";
+import Layout, { title } from "../components/Layout";
 import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { cheatsheets } from "../lib/collections";

@@ -1,6 +1,6 @@
 import React from "react";
 import { render, act } from "@testing-library/react";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 
 describe("Layout", () => {
   it("scaffolds the home page", () => {

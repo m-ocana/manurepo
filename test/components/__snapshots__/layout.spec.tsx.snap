@@ -3,15 +3,15 @@
 exports[`Layout scaffolds any other page 1`] = `
 <DocumentFragment>
   <div
-    class="container"
+    class="layout__Container-sc-1rx37dj-0 gYqtRt"
   >
     <header
-      class="header"
+      class="layout__Header-sc-1rx37dj-1 fbezYz"
     >
       <a>
         <img
           alt="The Manurepo"
-          class="headerImage"
+          class="layout__HeaderImage-sc-1rx37dj-2 dbiPNq"
           src="/images/repo.svg"
         />
       </a>
@@ -28,7 +28,7 @@ exports[`Layout scaffolds any other page 1`] = `
     </header>
     <main />
     <div
-      class="backToHome"
+      class="layout__BackToHomeContainer-sc-1rx37dj-3 dDWKJU"
     >
       <a
         href="/"
@@ -43,14 +43,14 @@ exports[`Layout scaffolds any other page 1`] = `
 exports[`Layout scaffolds the home page 1`] = `
 <DocumentFragment>
   <div
-    class="container"
+    class="layout__Container-sc-1rx37dj-0 gYqtRt"
   >
     <header
-      class="header"
+      class="layout__Header-sc-1rx37dj-1 fbezYz"
     >
       <img
         alt="The Manurepo"
-        class="headerHomeImage"
+        class="layout__HeaderImage-sc-1rx37dj-2 dbiSgk"
         src="/images/repo.svg"
       />
       <h1
