@@ -2,8 +2,6 @@ import { useEffect } from "react";
 import Head from "next/head";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Layout from "../../components/Layout";
-import Date from "../../components/Date";
-import utilStyles from "../../styles/utils.module.css";
 import Prism from "prismjs";
 import { cheatsheets } from "../../lib/collections";
 
@@ -18,10 +16,6 @@ export default function Cheatsheet({ name: title, contentHtml }) {
         <title>{title}</title>
       </Head>
       <article>
-        {/*
-        <div className={utilStyles.lightText}>
-          <Date dateString={date} />
-        </div> */}
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
       </article>
     </Layout>
