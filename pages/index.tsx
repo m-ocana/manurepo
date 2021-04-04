@@ -1,16 +1,17 @@
 import Head from "next/head";
 import Link from "next/link";
 import { GetStaticProps } from "next";
-import Layout, { title } from "../components/Layout";
-import Date from "../components/date";
+import Layout from "../components/Layout";
+import Date from "../components/Date";
 import utilStyles from "../styles/utils.module.css";
+import { TITLE } from "../globals/site";
 import { cheatsheets } from "../lib/collections";
 
 export default function Home({ allCheatsheets }) {
   return (
     <Layout home>
       <Head>
-        <title>{title}</title>
+        <title>{TITLE}</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>A collection of cheatsheets, snippets and utils for developers.</p>

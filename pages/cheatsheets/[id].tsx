@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Head from "next/head";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Layout from "../../components/Layout";
-import Date from "../../components/date";
+import Date from "../../components/Date";
 import utilStyles from "../../styles/utils.module.css";
 import Prism from "prismjs";
 import { cheatsheets } from "../../lib/collections";

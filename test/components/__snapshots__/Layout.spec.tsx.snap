@@ -3,32 +3,29 @@
 exports[`Layout scaffolds any other page 1`] = `
 <DocumentFragment>
   <div
-    class="layout__Container-sc-1rx37dj-0 gYqtRt"
+    class="Layout__Container-sc-1iaoog8-0 kefHsW"
   >
     <header
-      class="layout__Header-sc-1rx37dj-1 fbezYz"
+      class="Header__HeaderContainer-sc-1h5jhiv-0 fPyefU"
     >
-      <a>
+      <a
+        class="Header__LinkWrapper-sc-1h5jhiv-3 dXWzUE"
+      >
         <img
           alt="The Manurepo"
-          class="layout__HeaderImage-sc-1rx37dj-2 dbiPNq"
+          class="Header__HeaderImage-sc-1h5jhiv-1 dKNqRU"
           src="/images/repo.svg"
         />
-      </a>
-      <h2
-        class="headingLg"
-      >
-        <a
-          class="colorInherit"
-          href="/"
+        <h2
+          class="Header__H2-sc-1h5jhiv-4 dgzwDa"
         >
           The Manurepo
-        </a>
-      </h2>
+        </h2>
+      </a>
     </header>
     <main />
     <div
-      class="layout__BackToHomeContainer-sc-1rx37dj-3 dDWKJU"
+      class="BackToHome__BackToHomeContainer-sc-1b2or72-0 bzyFly"
     >
       <a
         href="/"
@@ -43,18 +40,18 @@ exports[`Layout scaffolds any other page 1`] = `
 exports[`Layout scaffolds the home page 1`] = `
 <DocumentFragment>
   <div
-    class="layout__Container-sc-1rx37dj-0 gYqtRt"
+    class="Layout__Container-sc-1iaoog8-0 kefHsW"
   >
     <header
-      class="layout__Header-sc-1rx37dj-1 fbezYz"
+      class="Header__HeaderContainer-sc-1h5jhiv-0 fPyefU"
     >
       <img
         alt="The Manurepo"
-        class="layout__HeaderImage-sc-1rx37dj-2 dbiSgk"
+        class="Header__HeaderImage-sc-1h5jhiv-1 dKNuVy"
         src="/images/repo.svg"
       />
       <h1
-        class="heading2Xl"
+        class="Header__H1-sc-1h5jhiv-2 divOda"
       >
         The Manurepo
       </h1>
