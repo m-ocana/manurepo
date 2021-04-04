@@ -23,11 +23,6 @@ const GlobalStyle = createGlobalStyle`
   a:hover {
     text-decoration: underline;
   }
-
-  img {
-    max-width: 100%;
-    display: block;
-  }
 `;
 
 export default GlobalStyle

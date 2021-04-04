@@ -12,6 +12,8 @@ const HeaderContainer = styled.header`
 
 const HeaderImage = styled.img<{ home?: boolean }>`
   height: ${(p) => (p.home ? "8rem" : "6rem")};
+  max-width: 100%;
+  display: block;
 `;
 
 const H1 = styled.h1`

@@ -18,7 +18,7 @@ export default function Cheatsheet({ name: title, contentHtml }) {
         <title>{title}</title>
       </Head>
       <article>
-        {/* <h1 className={utilStyles.headingXl}>{title}</h1>
+        {/*
         <div className={utilStyles.lightText}>
           <Date dateString={date} />
         </div> */}

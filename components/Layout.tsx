@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "./Header";
 import BackToHome from "./BackToHome";
-import utilStyles from "../styles/utils.module.css";
 import styled from "styled-components";
 import { TITLE } from "../globals/site";
 
