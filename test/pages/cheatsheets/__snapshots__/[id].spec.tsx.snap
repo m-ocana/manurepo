@@ -13,7 +13,7 @@ exports[`Cheatsheet page renders a Cheatsheet page 1`] = `
       >
         <img
           alt="The Manurepo"
-          class="Header__HeaderImage-sc-1h5jhiv-1 dKNqRU"
+          class="Header__HeaderImage-sc-1h5jhiv-1 dppRBg"
           src="/images/repo.svg"
         />
         <h2

@@ -13,7 +13,7 @@ exports[`Layout scaffolds any other page 1`] = `
       >
         <img
           alt="The Manurepo"
-          class="Header__HeaderImage-sc-1h5jhiv-1 dKNqRU"
+          class="Header__HeaderImage-sc-1h5jhiv-1 dppRBg"
           src="/images/repo.svg"
         />
         <h2
@@ -47,7 +47,7 @@ exports[`Layout scaffolds the home page 1`] = `
     >
       <img
         alt="The Manurepo"
-        class="Header__HeaderImage-sc-1h5jhiv-1 dKNuVy"
+        class="Header__HeaderImage-sc-1h5jhiv-1 bASMFq"
         src="/images/repo.svg"
       />
       <h1
