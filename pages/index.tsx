@@ -1,36 +1,57 @@
 import Head from "next/head";
 import Link from "next/link";
 import { GetStaticProps } from "next";
-import Layout, { title } from "../components/layout";
-import Date from "../components/date";
+import Layout from "../components/Layout";
+import Date from "../components/Date";
+import styled from "styled-components";
 import utilStyles from "../styles/utils.module.css";
+import { TITLE } from "../globals/site";
 import { cheatsheets } from "../lib/collections";
+
+const Section = styled.section`
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-bottom: 1px;
+`;
+
+const SectionTitle = styled.h2`
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+`;
+
+const List = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin: 0;
+`;
+
+const ListItem = styled.li`
+  margin: 0 0 1.25rem;
+`;
 
 export default function Home({ allCheatsheets }) {
   return (
     <Layout home>
       <Head>
-        <title>{title}</title>
+        <title>{TITLE}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <Section>
         <p>A collection of cheatsheets, snippets and utils for developers.</p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Cheatsheets</h2>
-        <ul className={utilStyles.list}>
+      </Section>
+      <Section>
+        <SectionTitle>Cheatsheets</SectionTitle>
+        <List>
           {allCheatsheets.map(({ id, date }) => (
-            <li className={utilStyles.listItem} key={id}>
+            <ListItem key={id}>
               <Link href={`/cheatsheets/${id}`}>
                 <a>{id}</a>
               </Link>
               <br />
-              {/* <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small> */}
-            </li>
+            </ListItem>
           ))}
-        </ul>
-      </section>
+        </List>
+      </Section>
     </Layout>
   );
 }
